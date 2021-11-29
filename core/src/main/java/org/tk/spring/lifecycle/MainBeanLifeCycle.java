@@ -29,6 +29,7 @@ import java.util.Arrays;
  */
 public class MainBeanLifeCycle {
 
+    // Only two beans initialized, so will see BeanPostProcessor for JavaConfig and BeanLifeCycle
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(JavaConfig.class);
 

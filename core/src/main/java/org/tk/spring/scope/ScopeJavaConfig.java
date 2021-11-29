@@ -16,6 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ScopeJavaConfig {
 
     //Register Custom scope with container (should be done before beanFactory initializes -->
+    //method is static to register first
     @Bean
     public static CustomScopeConfigurer configurer() {
         CustomScopeConfigurer scopeConfigurer = new CustomScopeConfigurer();
@@ -32,7 +33,7 @@ public class ScopeJavaConfig {
     }
 
     @Bean
-    @Scope("thread") //custome scope name
+    @Scope("thread") //custom scope name
     public ThreadAnnouncer announcer() {
         return new ThreadAnnouncer();
     }

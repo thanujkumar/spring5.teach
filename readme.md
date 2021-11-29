@@ -14,6 +14,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/thanujkumar/spring5.teach)
 ![GitHub forks](https://img.shields.io/github/forks/thanujkumar/spring5.teach)
 
+https://www.jrebel.com/blog/microservices-resilience-patterns
 
 
 

@@ -1,8 +1,6 @@
 package org.tk.spring.proxyfactory.javabased;
 
-import javax.crypto.spec.PSource;
 import java.lang.reflect.Proxy;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
