@@ -33,7 +33,7 @@
         <spring.version>5.3.14</spring.version>
         <springdoc-openapi-ui.version>1.6.6</springdoc-openapi-ui.version>
         <lombok.version>1.18.22</lombok.version>
-        <aspectj.version>1.9.7</aspectj.version>
+        <aspectj.version>1.9.9</aspectj.version>
         <!-- not used due to issue, instead using intellij error prone plugin -->
         <errorprone.version>2.7.1</errorprone.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
