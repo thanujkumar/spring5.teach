@@ -10,6 +10,9 @@ updates:
       interval: daily
     open-pull-requests-limit: 10
     ignore:
+      - dependency-name: org.springframework:*
+        versions:
+         - "> 6.x.x"
       - dependency-name: org.hibernate.validator:hibernate-validator
         versions:
           - "> 7.x.x.Final"

@@ -1,0 +1,10 @@
+
+https://spring.io/guides/
+https://zetcode.com/all/#spring
+
+https://github.com/joshlong/a-walking-tour-of-all-of-springdom
+https://spring.io/team/joshlong
+
+https://www.logicbig.com/tutorials/core-java-tutorial/java-16-changes.html
+
+https://spring.io/guides/gs/testing-web/

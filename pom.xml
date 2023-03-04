@@ -18,7 +18,7 @@
 
     <properties>
         <!-- Compiler properties for maven -->
-        <jvm.target.version>16</jvm.target.version>
+        <jvm.target.version>17</jvm.target.version>
         <maven.compiler.target>${jvm.target.version}</maven.compiler.target>
         <maven.compiler.source>${jvm.target.version}</maven.compiler.source>
         <encoding>UTF-8</encoding>
@@ -27,7 +27,7 @@
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
         <maven.gitcommitid.skip>false</maven.gitcommitid.skip>
         <generateGitPropertiesFile>true</generateGitPropertiesFile>
-        <argLine>--enable-preview</argLine>
+
 
         <sl4j.version>2.0.6</sl4j.version>
         <spring.version>5.3.14</spring.version>
@@ -393,7 +393,7 @@
                     <version>3.4.1</version>
                     <configuration>
                         <release>${jvm.target.version}</release>
-                        <additionalOptions>--enable-preview</additionalOptions>
+<!--                        <additionalOptions>&#45;&#45;enable-preview</additionalOptions>-->
                         <!-- avoid strict check of javadoc -->
                         <additionalOptions>-Xdoclint:none</additionalOptions>
                     </configuration>
@@ -513,7 +513,7 @@
                     <!-- https://errorprone.info/docs/installation#jdk-16 -->
                     <!-- https://github.com/RichardBradley/error-prone/blob/00df8f2a7a1d9a26ba9e7aa86f4561940b7759ed/examples/maven-with-lombok/pom.xml -->
                     <compilerArgs>
-                        <arg>--enable-preview</arg>
+<!--                        <arg>&#45;&#45;enable-preview</arg>-->
                         <arg>-XDcompilePolicy=simple</arg>
                         <compilerArg>-Amapstruct.defaultComponentModel=spring</compilerArg>
                     </compilerArgs>
