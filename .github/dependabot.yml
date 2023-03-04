@@ -10,6 +10,9 @@ updates:
       interval: daily
     open-pull-requests-limit: 10
     ignore:
+      - dependency-nme: org.springframework.data:spring-data-jpa
+        versions:
+          - "> 3.x.x"
       - dependency-name: org.springframework:*
         versions:
          - "> 6.x.x"
