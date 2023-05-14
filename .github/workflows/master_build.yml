@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 0  # was 1 and changed to 0 as sonar complain shallow fetch - Warning:  Shallow clone detected, no blame information will be provided. You can convert to non-shallow with 'git fetch --unshallow'.
       - name: setup java 16
-        uses: actions/setup-java@v3.10.0
+        uses: actions/setup-java@v3.11.0
         with:
           java-version: '16'
           distribution: 'adopt'
@@ -45,7 +45,7 @@ jobs:
           echo "Image version will be ${{ steps.projectVersionAsImageTag.outputs.IMAGE_TAG }}"
         shell: bash
       - name: Publish Test Report
-        uses: mikepenz/action-junit-report@v3.7.5
+        uses: mikepenz/action-junit-report@v3.7.6
         with:
           report_paths: '**/surefire-reports/TEST-*.xml'
           github_token: ${{ secrets.GITHUB_TOKEN }}
