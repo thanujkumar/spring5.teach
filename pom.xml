@@ -39,7 +39,7 @@
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
         <hibernate-entitymanager.version>5.6.15.Final</hibernate-entitymanager.version>
         <spring-data-jpa.version>2.6.2</spring-data-jpa.version>
-        <mapstruct.version>1.5.4.Final</mapstruct.version>
+        <mapstruct.version>1.5.5.Final</mapstruct.version>
         <hibernate-validator.version>6.2.5.Final</hibernate-validator.version>
         <junit5.version>5.9.3</junit5.version>
         <h2database.version>2.1.214</h2database.version>
