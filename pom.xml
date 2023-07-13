@@ -29,7 +29,7 @@
         <generateGitPropertiesFile>true</generateGitPropertiesFile>
 
 
-        <spring.version>5.3.28</spring.version>
+        <spring.version>5.3.29</spring.version>
         <sl4j.version>2.0.7</sl4j.version>
         <springdoc-openapi-ui.version>1.6.15</springdoc-openapi-ui.version>
         <lombok.version>1.18.28</lombok.version>
