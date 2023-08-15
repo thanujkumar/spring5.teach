@@ -41,7 +41,7 @@
         <spring-data-jpa.version>2.7.13</spring-data-jpa.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <hibernate-validator.version>6.2.5.Final</hibernate-validator.version>
-        <junit5.version>5.9.3</junit5.version>
+        <junit5.version>5.10.0</junit5.version>
         <h2database.version>2.2.220</h2database.version>
         <cache-api.version>1.1.1</cache-api.version>
         <ehcache.version>3.9.9</ehcache.version>
