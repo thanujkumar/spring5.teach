@@ -33,7 +33,7 @@
         <sl4j.version>2.0.7</sl4j.version>
         <springdoc-openapi-ui.version>1.6.15</springdoc-openapi-ui.version>
         <lombok.version>1.18.28</lombok.version>
-        <aspectj.version>1.9.19</aspectj.version>
+        <aspectj.version>1.9.20.1</aspectj.version>
         <!-- not used due to issue, instead using intellij error prone plugin -->
         <errorprone.version>2.7.1</errorprone.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
