@@ -43,7 +43,7 @@ jobs:
 
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@a09933a12a80f87b87005513f0abb1494c27a716 # ratchet:github/codeql-action/init@v2
+        uses: github/codeql-action/init@04daf014b50eaf774287bf3f0f1869d4b4c4b913 # ratchet:github/codeql-action/init@v2
         with:
           languages: ${{ matrix.language }}
           queries: security-and-quality
@@ -82,6 +82,6 @@ jobs:
       #   make release
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@a09933a12a80f87b87005513f0abb1494c27a716 # ratchet:github/codeql-action/analyze@v2
+        uses: github/codeql-action/analyze@04daf014b50eaf774287bf3f0f1869d4b4c4b913 # ratchet:github/codeql-action/analyze@v2
         with:
           ram: 3000
